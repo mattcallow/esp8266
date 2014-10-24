@@ -11,10 +11,10 @@ Some code based on http://hackaday.io/project/3072/instructions
 Connections
 ===========
 
-Wifi RX -> Teensy3 pin 1
-Wifi TX -> Teensy3 pin 0
-Wifi RESET -> Teensy3 pin 2
-Wifi CH PD -> 3.3V
+ * Wifi RX -> Teensy3 pin 1
+ * Wifi TX -> Teensy3 pin 0
+ * Wifi RESET -> Teensy3 pin 2
+ * Wifi CH PD -> 3.3V
 
 I found that I needed to supply the module from a separate 3.3v supply. The regulator in the teensy cannot provide enough current
 
